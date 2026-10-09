@@ -20,9 +20,17 @@ The operating rule: agents get the judgment calls; deterministic code gets the l
 
 [**marketing-agent-pipeline**](https://github.com/rodion-whatisai/marketing-agent-pipeline) — the pipeline behind the numbers above: tracking-audit scanner, competitor ad intelligence, spend estimation, and the golden-corpus regression harness.
 
-The working language of the repo is Russian; the README is in English.
+Smaller tools from the same practice, each an anonymized extract from a private working repo:
 
-Also in production, not public: a lead-router with 190 offline tests, and a Claude-vision creative pre-selector that grades creatives before they spend a dollar.
+- [**targeting-tree**](https://github.com/rodion-whatisai/targeting-tree) — a Meta ad account drawn as a tree and grown day by day: thickness is spend, colour is CPL against the median, two periods side by side with a scoreboard. One HTML file, demo on synthetic data.
+- [**lead-autorouter**](https://github.com/rodion-whatisai/lead-autorouter) — deterministic CRM lead router: write-proxy guards, undo, 198 offline tests, no LLM in the loop.
+- [**creative-precull**](https://github.com/rodion-whatisai/creative-precull) — Claude-vision agent that culls a photo dump down to the frames usable behind ad copy. The model grades, a human picks.
+- [**agent-outbox**](https://github.com/rodion-whatisai/agent-outbox) — sandboxed agents deliver reports to Telegram without ever holding credentials.
+- [**youtube-brief**](https://github.com/rodion-whatisai/youtube-brief) — video → local Whisper transcript → structured summary.
+
+The working language of the repos is Russian; the READMEs are in English.
+
+In production since July 2026, not public (account-specific, client data): a media planner that rebuilds per-city budgets every morning from studio capacity and the booking book, with five pre-registered gates and a brake that keeps the last green model when a gate goes red; a weekly metrics matrix on the warehouse gold tables with per-source freshness edges; a cross-system lead dossier by phone number; daily call lists per agent, built and scored by fixed rules. The pattern is the same in each: code decides what is checkable, a gate decides whether anything ships, a person decides the rest.
 
 If you are an engineer checking whether the marketing guy actually writes code: start with the regression harness.
 
