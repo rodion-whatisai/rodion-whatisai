@@ -30,7 +30,7 @@ Smaller tools from the same practice, each an anonymized extract from a private 
 
 The working language of the repos is Russian; the READMEs are in English.
 
-In production since July 2026, not public (account-specific, client data): a media planner that rebuilds per-city budgets every morning from studio capacity and the booking book, with five pre-registered gates and a brake that keeps the last green model when a gate goes red; a weekly metrics matrix on the warehouse gold tables with per-source freshness edges; a cross-system lead dossier by phone number; daily call lists per agent, built and scored by fixed rules. The pattern is the same in each: code decides what is checkable, a gate decides whether anything ships, a person decides the rest.
+In production since July 2026, not public (account-specific, client data): a media planner that rebuilds per-city budgets every morning from studio capacity and the booking book: every step from lead to arrival measured per city and channel×targeting cell, a walk-forward model refit every Monday behind five pre-registered gates (a red gate keeps the last green model), and per-ad-set budget recommendations optimised on cost per booking and cost per arrival, which closes about three months after the lead; a weekly metrics matrix on the warehouse gold tables with per-source freshness edges; a cross-system lead dossier by phone number; daily call lists per agent, built and scored by fixed rules. The pattern is the same in each: code decides what is checkable, a gate decides whether anything ships, a person decides the rest.
 
 If you are an engineer checking whether the marketing guy actually writes code: start with the regression harness.
 
