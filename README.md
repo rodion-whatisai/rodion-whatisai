@@ -1,6 +1,6 @@
 # Rodion Agafonov
 
-Performance-marketing operator, 12+ years. I currently run ~$600K/month of Meta ad spend in-house as a single operator — about 5,000 active ads — with analysis, creative iteration, and anomaly detection carried by LLM workflows I build myself. Since I took over, lead-to-booking conversion went from 5% to 14%. Before this: Head of Operations at SoMin.ai, an AI ad-optimization platform serving 30 enterprise clients. Before that: built the paid-social department at Mindshare/WPP from zero to 8 people covering 40 brands at ~$7.7M/yr.
+Performance-marketing operator, 12+ years. I currently run ~$600K/month of Meta ad spend in-house as a single operator — about 5,000 active ads — with analysis, creative iteration, and anomaly detection carried by LLM workflows I build myself. Since I took over, lead-to-booking conversion went from 5% to 14%. Before this: Head of Operations at SoMin.ai, an AI ad-optimization platform serving 30 enterprise clients. Before that: built the paid-social department at Mindshare/WPP from zero to 7 people covering 40+ brands at ~$7.7M/yr.
 
 ---
 
